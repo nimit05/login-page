@@ -1764,7 +1764,11 @@ button:hover {
 
 
 @media screen and (max-width:541px) {
-  body {}
+
+  body,
+  html {
+    overflow: hidden;
+  }
 
   * {
     overflow: hidden;
